@@ -4,35 +4,35 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.aaa {
+.img-block {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.aaa img {
+.img-block img {
   width: 100%;
 }
-.aaa .more_info {
+.img-block .more_inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
-  .aaa { 
+  .img-block { 
     text-align: center;
   }
 }
-.centered-main-page-element {
+.list-nodes {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
-.task {
+.name-task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
-.task-row-wrapper {
+.taks-wrapper {
   display: flex;
 }
 ul {

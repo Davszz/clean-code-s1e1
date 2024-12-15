@@ -13,7 +13,7 @@ body {
 .header img {
   width: 100%;
 }
-.header .more_inf {
+.header .header__info {
   font-family: fantasy, cursive;
 }
 
@@ -27,7 +27,7 @@ body {
   width: 500px;
   margin: 0 auto 0;
 }
-.name-task {
+.name_task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -61,7 +61,7 @@ button:hover {
 }
 /* Heading */
 h2,
-label[for="new-task"] {
+label[for="new-none__new-task"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -87,11 +87,11 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for="new-task"] {
+label[for="new-none__new-task"] {
   display: block;
   margin: 0 0 20px;
 }
-#new-task {
+#new-none__new-task {
   width: 318px;
 }
 
